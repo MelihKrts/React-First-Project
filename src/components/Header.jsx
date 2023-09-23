@@ -17,19 +17,19 @@ export default function Header() {
           </div>
 
           <div className="w-5/6  flex justify-end text-white">
-          <Link to='#howTo' smooth className="mr-3">
+          <Link to='#howTo' smooth className="mr-2">
             How To
           </Link>
-          <Link to='#teams' smooth className="mr-3">
+          <Link to='#teams' smooth className="mr-2">
             Teams
           </Link>
-          <Link to='#blog' smooth className="mr-3">
+          <Link to='#blog' smooth className="mr-2">
             Blog's
           </Link>
-          <Link to='#customer' smooth className="mr-3">
+          <Link to='#customer' smooth className="mr-2">
             Customer 
           </Link>
-          <Link to='#contact-us' smooth className="mr-3">
+          <Link to='#contact-us' smooth className="mr-2">
             Contact Us
           </Link>
           </div>
