@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input[type=text][type=email], [type=tel]{
+    padding: 10px 20px;
+}
+textarea{
+    padding: 10px 20px;
+}
+input[type=text]:focus,
+input[type=email]:focus,
+input[type=tel]:focus,
+textarea:focus{
+    border-color: rgba(220, 42, 29, 0.8);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(220, 42, 29, 0.6);
+    outline: 0 none;
+}
+.form-control{
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    color: #555;
+}
+.submit-btn{
+    background: #e30613;
+}
