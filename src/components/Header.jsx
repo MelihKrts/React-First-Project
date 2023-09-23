@@ -11,7 +11,7 @@ export default function Header() {
         <div className="w-full flex justify-center items-center">
 
           <div className="w-1/6">
-            <a href="/index">
+            <a href="/">
               <img src={Logo} alt="Logo" title="Logo" className="pb-2 mt-2 flex justify-center items-center mx-auto" />
             </a>
           </div>
