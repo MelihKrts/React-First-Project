@@ -44,7 +44,7 @@ export const Team = () => {
       ]
   };
 return(
-  <section className="w-full">
+  <section className="w-full" id="team">
 
   <div className="container mx-auto">
         <h1 className="text-4xl  text-center py-4 font-semibold"> Meet Our Team</h1>
