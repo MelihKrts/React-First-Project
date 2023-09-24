@@ -1,4 +1,5 @@
 import "./assets/index.css"
+import React from "react"
 
 import {CustomerReviews} from "./components/Customer"
 import Footer from './components/footer'

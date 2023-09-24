@@ -1,3 +1,4 @@
+import React from "react";
 import Slider from "react-slick";
 import "../assets/slick.css";
 import "../assets/slick-theme.css";
@@ -63,7 +64,9 @@ export const CustomerReviews = () => {
           slidesToScroll: 1,
           infinite: true,
           dots: false,
-          arrow:true
+          arrow:false,
+          autoplay: true,
+          autplaySpedd: 2500,
         },
       },
       {
@@ -72,7 +75,10 @@ export const CustomerReviews = () => {
           slidesToShow: 1,
           slidesToScroll: 1,
           initialSlide: 1,
-          arrow:false
+          arrow:false,
+          infinite:true,
+          autoplay: true,
+          autplaySpedd: 2500,
         },
       },
       {
@@ -80,7 +86,10 @@ export const CustomerReviews = () => {
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
-          arrow:false
+          arrow:false,
+          infinite:true,
+          autoplay: true,
+          autplaySpedd: 2500,
         },
       },
     ],
