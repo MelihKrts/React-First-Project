@@ -123,7 +123,7 @@ export const CustomerReviews = () => {
                   <FaStar className="text-star-colors mb-4" key={index} />
                 ))}
               </div>
-              <div className="flex justify-between">
+              <div className="flex justify-center">
                 <div className="w-1/2 flex text-like-colors items-center">
                   <AiFillLike onClick={()=>increase(index)} />
                   <span className="block ml-2">{likes[index]}</span>
