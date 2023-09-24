@@ -12,7 +12,7 @@ export default function Slide() {
               Proin non rhoncus dolor. Nunc bibendum tempus dolor. Praesent
               vulputate.
             </p>
-            <button className="px-8 py-2 bg-button text-white text-center rounded-md left-[35%] relative">Contact Us</button>
+            <button className="px-8 py-2 bg-button text-white text-center rounded-md left-[35%] lg:left-[40%] relative">Contact Us</button>
 
             </div>
           </div>
