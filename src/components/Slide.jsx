@@ -4,7 +4,7 @@ export default function Slide() {
       <div className="container mx-auto ">
         <div className="w-full flex justify-center items-center">
 
-          <div className="absolute lg:top-1/2 left-1/2 text-center w-full md:top-1/4 -translate-x-1/2 -translate-y-1/2">
+          <div className="absolute lg:top-1/2 left-1/2 text-center w-full  -translate-x-1/2 -translate-y-1/2">
             <h1 className="text-4xl lg:text-5xl font-bold text-center text-white">
               Happy homes, happy people and lives
             </h1>
