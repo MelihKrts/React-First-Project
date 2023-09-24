@@ -1,6 +1,6 @@
-import Lisa from "../assets/images/Lisa.jpg";
-import Annie from "../assets/images/Annie.jpg";
-import Darwin from "../assets/images/Darwin.jpg";
+import Lisa from "../../public/image/Lisa.jpg";
+import Annie from "../../public/image/Annie.jpg";
+import Darwin from "../../public/image/Darwin.jpg";
 import Ana from "../assets/images/Ana.jpg"
 
 export const teamInfo = [

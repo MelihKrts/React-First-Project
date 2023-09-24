@@ -11,7 +11,8 @@ export default {
         "star-colors":"#ffe810",
         "like-colors":"#2ecc71",
         "unLike-colors":"#e74c3c",
-        "button":"#f47425"
+        "button":"#f47425",
+        "team-bg":"#f5f5f5"
       }
     },
   },
