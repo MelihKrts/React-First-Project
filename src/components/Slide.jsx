@@ -1,6 +1,6 @@
 export default function Slide() {
   return (
-    <section className="w-full bg-[url('../assets/images/slide-one.jpg')] h-[80vh] bg-cover bg-bottom bg-fixed">
+    <section className="w-full bg-[url('../assets/images/slide-one.jpg')] h-[65vh] bg-cover bg-bottom bg-fixed">
       <div className="container mx-auto ">
         <div className="w-full flex justify-center items-center">
 
